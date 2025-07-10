@@ -5,7 +5,7 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 const SplashScreen = () => {
   return (
    <SafeAreaView className="bg-blue-500 h-full justify-center items-center">
-    <View className="bg-white h-32 w-32 rounded-2xl justify-center items-center shadow-xl shadow-white">
+    <View className="bg-white h-32 w-32 rounded-2xl justify-center items-center shadow-2xl shadow-white">
         <Image source={require("../assets/splashimg.png")} />
     </View>
 
