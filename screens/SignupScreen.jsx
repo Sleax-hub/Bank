@@ -13,7 +13,7 @@ const LoginScreen = () => {
         />
         <Text className="text-white font-semibold text-xl">Create Account</Text>
       </View>
-      <View className="h-4/5 bg-white mt-20 rounded-t-2xl pl-20 py-10 space-y-6 ">
+      <View className="absolute w-full bottom-0 h-4/5 bg-white mt-20 rounded-t-2xl pl-20 py-10 space-y-6 ">
         <View>
           <Text className="text-blue-500 font-semibold ">Full Name</Text>
           <TextInput
