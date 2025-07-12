@@ -4,13 +4,15 @@ import SplashScreen from './screens/SplashScreen';
 import LoginScreen from './screens/LoginScreen';
 import SignupScreen from './screens/SignupScreen';
 import HomeScreen from './screens/HomeScreen';
+import TransactScreen from './screens/TransactScreen';
 
 export default function App() {
   return (
   //  <SplashScreen/>
   //  <LoginScreen/>
   //  <SignupScreen/>
-  <HomeScreen/>
+  // <HomeScreen/>
+  <TransactScreen/>
   );
 }
 
